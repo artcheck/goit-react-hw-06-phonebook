@@ -17,7 +17,8 @@ const Filter = ({ filter, filterContacts }) => {
      name="filter"
      id="filter"
      value={filter}
-     className={styles.inputName}
+    className={styles.inputName}
+    placeholder="Enter Name"
     ></input>
    </div>
   </div>
